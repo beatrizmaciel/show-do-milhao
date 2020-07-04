@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Show do Milhão</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../jovensgenios/css/style.css">
+</head>
+
+<body>
+
+	<div class="home-box custom-box">
+		<img src="../jovensgenios/img/Jogodomilhao1999.png"><br><br>
+		<h3>Bem vindo ao Show do Milhão! </h3>
+		<p>É hora de recordar o maior sucesso de audiência no final dos anos 90! Você se lembra do Show do Milhão,
+			apresentado por Silvio Santos? Agora você poderá reviver a emoção de estar em busca de 1 milhão de
+			reais!<br><br>
+			<b>Instruções:</b><br>
+			- Você responderá um total de <span class="total-question"></span> perguntas<br>
+			- Você pode pular uma pergunta, caso deseje<br>
+			- Para saber o resultado, você deverá passar por todas as perguntas<br>
+			- Você não pode voltar para a pergunta anterior<br><br>
+		
+			Divirta-se!!</p>
+		<button type="button" class="btn" onclick="startQuiz()">Começar</button>
+	</div>
+
+	<div class="quiz-box custom-box hide">
+		<div class="icone-pequeno">
+		</div>
+		<div class="question-number">
+
+		</div>
+		<div class="question-text">
+
+		</div>
+		<div class="option-container">
+
+		</div>
+		<div class="next-question-btn">
+			<button type="button" class="btn" onclick="next()">Próximo</button>
+		</div>
+		<div class="answer-indicator">
+
+		</div>
+	</div>
+
+	<div class="result-box custom-box hide">
+		<div class="icone-pequeno">
+		</div><br><br>
+		<h1>Resultado</h1>
+		<table>
+			<tr>
+				<td>Total de perguntas</td>
+				<td><span class="total-question"></span></td>
+			</tr>
+			<tr>
+				<td>Corretas</td>
+				<td><span class="total-correct"></span></td>
+			</tr>
+			<tr>
+				<td>Incorretas</td>
+				<td><span class="total-wrong"></span></td>
+			</tr>
+			<tr>
+				<td>Porcentagem</td>
+				<td><span class="percentage"></span></td>
+			</tr>
+			<tr>
+				<td>Total</td>
+				<td><span class="total-score"></span></td>
+			</tr>
+		</table>
+		<button type="button" class="btn" onclick="tryAgainQuiz()">Tente novamente</button>
+		<button type="button" class="btn" onclick="goToHome()">Página Principal</button>
+	</div>
+
+	<script src="../jovensgenios/js/perguntas.js"></script>
+	<script src="../jovensgenios/js/app.js"></script>
+
+</body>
+
+</html>
