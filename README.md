@@ -1,4 +1,4 @@
 # show-do-milhao
 Simulação do Show do Milhão
 
-![inicial](https://user-images.githubusercontent.com/66186549/86536494-738e7100-bebe-11ea-8850-f1988ada283b.png)
+![showdomilhao](https://user-images.githubusercontent.com/66186549/86540665-603ece00-bedd-11ea-9606-9909f84696d5.gif)
