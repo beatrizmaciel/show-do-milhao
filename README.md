@@ -2,4 +2,4 @@
 Simulação do Show do Milhão
 
 
-![](antoniogrosso/docs/bib/jovensgenios/inicial.png)
+![](src/antoniogrosso/docs/Bib/jovensgenios/inicial.png)
